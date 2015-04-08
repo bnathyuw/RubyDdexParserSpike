@@ -8,7 +8,7 @@ xmldoc = Document.new(xmlfile)
 
 isrc = "NLA508028306"
 
-sound_recording = XPath.first(xmldoc, "//SoundRecording[SoundRecordingId/ISRC/.='#{isrc}']")
+sound_recording = XPath.first(xmldoc, "//SoundRecording[SoundRecordingId/ISRC/.=$isrc]", {}, {"isrc" => isrc})
 
 resource_reference = XPath.first(sound_recording, "//ResourceReference/text()")
 
