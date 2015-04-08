@@ -8,10 +8,12 @@ xmldoc = Document.new(xmlfile)
 
 isrc = "NLA508028306"
 
-resource_reference = XPath.first(xmldoc, "//SoundRecording[SoundRecordingId/ISRC/.='#{isrc}']/ResourceReference/text()")
+sound_recording = XPath.first(xmldoc, "//SoundRecording[SoundRecordingId/ISRC/.='#{isrc}']")
+
+resource_reference = XPath.first(sound_recording, "//ResourceReference/text()")
 
 puts resource_reference
 
-XPath.each(xmldoc, "//SoundRecording[SoundRecordingId/ISRC/.='#{isrc}']/SoundRecordingDetailsByTerritory/Title[@TitleType='DisplayTitle']/TitleText"){ |e| puts e.text }
+XPath.each(sound_recording, "//SoundRecordingDetailsByTerritory/Title[@TitleType='DisplayTitle']/TitleText"){ |e| puts e.text }
 
 territory_code = "GB"
