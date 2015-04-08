@@ -1,8 +1,7 @@
 #!/usr/bin/ruby -w
 
 require 'rexml/document'
-require './release'
-require './deal'
+require './ddex_reader'
 include REXML
 
 class Track
@@ -15,27 +14,15 @@ class Track
 	end
 
 	def deals
-		deals = XPath.match(@xmldoc, 
-							"//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal[DealTerms/TerritoryCode/.=$territory_code]", 
-							{}, 
-							{"release_reference"=>@release.reference, "territory_code"=>@territory_code})
-		deals.map { |x| Deal.new(x) }
+		@ddex_reader.read_deals(@release.reference, @territory_code)
 	end
 
 	def initialize(xmldoc, isrc, territory_code)
 		@xmldoc = xmldoc
 		@territory_code = territory_code
 
-		resource_reference = XPath.first(xmldoc, 
-										 "//SoundRecording[SoundRecordingId/ISRC/.=$isrc]/ResourceReference/text()", 
-										 {}, 
-										 {"isrc"=>isrc})
+		@ddex_reader = DdexReader.new(xmldoc)
 
-		release_node = XPath.first(xmldoc, 
-							  "//Release[not(@IsMainRelease='true') and ReleaseResourceReferenceList/ReleaseResourceReference/.=$resource_reference]", 
-							  {}, 
-							  {"resource_reference"=>resource_reference})
-
-		@release = Release.new(release_node)
+		@release = @ddex_reader.read_release(isrc)
 	end
 end
