@@ -13,7 +13,9 @@ class DdexReader
 					{"isrc"=>isrc})
 	end
 
-	def read_release(resource_reference, territory_code)
+	def read_track_release(isrc, territory_code)
+		resource_reference = read_resource_reference_by_isrc(isrc)
+
 		release_node = XPath.first(@xmldoc, 
 								   "//Release[not(@IsMainRelease='true') and ReleaseResourceReferenceList/ReleaseResourceReference/.=$resource_reference]", 
 								   {}, 

@@ -20,7 +20,6 @@ class Track
 	def initialize(ddex_reader, isrc, territory_code)
 		@territory_code = territory_code
 		@ddex_reader = ddex_reader
-		resource_reference = @ddex_reader.read_resource_reference_by_isrc(isrc)
-		@release = @ddex_reader.read_release(resource_reference, territory_code)
+		@release = @ddex_reader.read_track_release(isrc, territory_code)
 	end
 end
