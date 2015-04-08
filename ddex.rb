@@ -4,7 +4,7 @@ require 'rexml/document'
 require './track'
 include REXML
 
-class DdexReader
+class Ddex
 	def initialize(filename)
 		xmlfile = File.new(filename)
 		@xmldoc = Document.new(xmlfile)
