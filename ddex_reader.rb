@@ -6,12 +6,14 @@ require './deal'
 include REXML
 
 class DdexReader
-	def read_release(isrc, territory_code)
-		resource_reference = XPath.first(@xmldoc, 
-										 "//SoundRecording[SoundRecordingId/ISRC/.=$isrc]/ResourceReference/text()", 
-										 {}, 
-										 {"isrc"=>isrc})
+	def read_resource_reference_by_isrc(isrc)
+		XPath.first(@xmldoc, 
+					"//SoundRecording[SoundRecordingId/ISRC/.=$isrc]/ResourceReference/text()", 
+					{}, 
+					{"isrc"=>isrc})
+	end
 
+	def read_release(resource_reference, territory_code)
 		release_node = XPath.first(@xmldoc, 
 								   "//Release[not(@IsMainRelease='true') and ReleaseResourceReferenceList/ReleaseResourceReference/.=$resource_reference]", 
 								   {}, 
