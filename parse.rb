@@ -41,8 +41,17 @@ deals = XPath.match(xmldoc,
 					{}, 
 					{"release_reference"=>release_reference, "territory_code"=>territory_code})
 
-deals.each do |deal|
-	commercial_model_type = XPath.first(deal, "DealTerms/CommercialModelType/text()")
-	deal_start_date = XPath.first(deal, "DealTerms/ValidityPeriod/StartDate/text()")
-	puts "Available on #{commercial_model_type} from #{deal_start_date}"
+class Deal
+	attr_reader :commercial_model_type
+	attr_reader :start_date
+	
+	def initialize(node)
+		@commercial_model_type = XPath.first(node, "DealTerms/CommercialModelType/text()")
+		@start_date = XPath.first(node, "DealTerms/ValidityPeriod/StartDate/text()")
+	end
+end
+
+deals.each do |deal_node|
+	deal = Deal.new(deal_node)
+	puts "Available on #{deal.commercial_model_type} from #{deal.start_date}"
 end
