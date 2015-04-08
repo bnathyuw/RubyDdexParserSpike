@@ -1,26 +1,24 @@
 #!/usr/bin/ruby -w
 
 require 'rexml/document'
+require './release'
 require './deal'
 include REXML
 
 class Track
 	def display_title
-		XPath.first(@release, "ReleaseDetailsByTerritory/Title[@TitleType='DisplayTitle']/TitleText/text()")
+		@release.display_title
 	end
 
 	def release_date
-		XPath.first(@release, 
-					"ReleaseDetailsByTerritory[TerritoryCode=$territory_code]/ReleaseDate/text()", 
-					{}, 
-					{"territory_code"=>@territory_code})
+		@release.release_date
 	end
 
 	def deals
 		deals = XPath.match(@xmldoc, 
 							"//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal[DealTerms/TerritoryCode/.=$territory_code]", 
 							{}, 
-							{"release_reference"=>@release_reference, "territory_code"=>@territory_code})
+							{"release_reference"=>@release.reference, "territory_code"=>@territory_code})
 		deals.map { |x| Deal.new(x) }
 	end
 
@@ -33,11 +31,11 @@ class Track
 										 {}, 
 										 {"isrc"=>isrc})
 
-		@release = XPath.first(xmldoc, 
+		release_node = XPath.first(xmldoc, 
 							  "//Release[not(@IsMainRelease='true') and ReleaseResourceReferenceList/ReleaseResourceReference/.=$resource_reference]", 
 							  {}, 
 							  {"resource_reference"=>resource_reference})
 
-		@release_reference = XPath.first(@release, "ReleaseReference/text()")
+		@release = Release.new(release_node)
 	end
 end
