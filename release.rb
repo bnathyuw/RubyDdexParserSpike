@@ -20,7 +20,8 @@ class Release
 		XPath.first(@node, "ReleaseReference/text()")
 	end
 
-	def initialize(node)
+	def initialize(node, territory_code)
 		@node = node
+		@territory_code = territory_code
 	end
 end

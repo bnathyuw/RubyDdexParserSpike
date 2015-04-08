@@ -6,7 +6,7 @@ require './deal'
 include REXML
 
 class DdexReader
-	def read_release(isrc)
+	def read_release(isrc, territory_code)
 		resource_reference = XPath.first(@xmldoc, 
 										 "//SoundRecording[SoundRecordingId/ISRC/.=$isrc]/ResourceReference/text()", 
 										 {}, 
@@ -17,7 +17,7 @@ class DdexReader
 								   {}, 
 								   {"resource_reference"=>resource_reference})
 
-		Release.new(release_node)
+		Release.new(release_node, territory_code)
 	end
 
 	def read_deals(release_reference, territory_code)

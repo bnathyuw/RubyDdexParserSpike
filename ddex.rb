@@ -7,11 +7,12 @@ include REXML
 class Ddex
 	def initialize(filename)
 		xmlfile = File.new(filename)
-		@xmldoc = Document.new(xmlfile)
+		xmldoc = Document.new(xmlfile)
+		@ddex_reader = DdexReader.new(xmldoc)
 	end
 
 	def read_track(isrc, territory_code)
-		Track.new(@xmldoc, isrc, territory_code)
+		Track.new(@ddex_reader, isrc, territory_code)
 	end
 end
 

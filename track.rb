@@ -17,12 +17,11 @@ class Track
 		@ddex_reader.read_deals(@release.reference, @territory_code)
 	end
 
-	def initialize(xmldoc, isrc, territory_code)
-		@xmldoc = xmldoc
+	def initialize(ddex_reader, isrc, territory_code)
 		@territory_code = territory_code
 
-		@ddex_reader = DdexReader.new(xmldoc)
+		@ddex_reader = ddex_reader
 
-		@release = @ddex_reader.read_release(isrc)
+		@release = @ddex_reader.read_release(isrc, territory_code)
 	end
 end
