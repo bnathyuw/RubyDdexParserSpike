@@ -12,48 +12,54 @@ xmlfile = File.new(filename)
 xmldoc = Document.new(xmlfile)
 
 class Deal
-	attr_reader :commercial_model_type
-	attr_reader :start_date
+	def commercial_model_type
+		XPath.first(@node, "DealTerms/CommercialModelType/text()")
+	end
+
+	def start_date
+		XPath.first(@node, "DealTerms/ValidityPeriod/StartDate/text()")
+	end
 	
 	def initialize(node)
-		@commercial_model_type = XPath.first(node, "DealTerms/CommercialModelType/text()")
-		@start_date = XPath.first(node, "DealTerms/ValidityPeriod/StartDate/text()")
+		@node = node
 	end
 end
 
 class Track
-	attr_reader :display_title
-	attr_reader :release_date
-	attr_reader :deals
+	def display_title
+		XPath.first(@release, "ReleaseDetailsByTerritory/Title[@TitleType='DisplayTitle']/TitleText/text()")
+	end
+
+	def release_date
+		XPath.first(@release, 
+					"ReleaseDetailsByTerritory[TerritoryCode=$territory_code]/ReleaseDate/text()", 
+					{}, 
+					{"territory_code"=>@territory_code})
+	end
+
+	def deals
+		deals = XPath.match(@xmldoc, 
+							"//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal[DealTerms/TerritoryCode/.=$territory_code]", 
+							{}, 
+							{"release_reference"=>@release_reference, "territory_code"=>@territory_code})
+		deals.map { |x| Deal.new(x) }
+	end
 
 	def initialize(xmldoc, isrc, territory_code)
-		sound_recording = XPath.first(xmldoc, 
-									  "//SoundRecording[SoundRecordingId/ISRC/.=$isrc]", 
-									  {}, 
-									  {"isrc"=>isrc})
+		@xmldoc = xmldoc
+		@territory_code = territory_code
 
-		resource_reference = XPath.first(sound_recording, "ResourceReference/text()")
+		resource_reference = XPath.first(xmldoc, 
+										 "//SoundRecording[SoundRecordingId/ISRC/.=$isrc]/ResourceReference/text()", 
+										 {}, 
+										 {"isrc"=>isrc})
 
-		release = XPath.first(xmldoc, 
+		@release = XPath.first(xmldoc, 
 							  "//Release[not(@IsMainRelease='true') and ReleaseResourceReferenceList/ReleaseResourceReference/.=$resource_reference]", 
 							  {}, 
 							  {"resource_reference"=>resource_reference})
 
-		release_reference = XPath.first(release, "ReleaseReference/text()")
-
-		@display_title = XPath.first(release, "ReleaseDetailsByTerritory/Title[@TitleType='DisplayTitle']/TitleText/text()")
-
-		@release_date = XPath.first(release, 
-									"ReleaseDetailsByTerritory[TerritoryCode=$territory_code]/ReleaseDate/text()", 
-									{}, 
-									{"territory_code"=>territory_code})
-
-		deals = XPath.match(xmldoc, 
-							 "//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal[DealTerms/TerritoryCode/.=$territory_code]", 
-							 {}, 
-							 {"release_reference"=>release_reference, "territory_code"=>territory_code})
-
-		@deals = deals.map { |x| Deal.new(x) }
+		@release_reference = XPath.first(@release, "ReleaseReference/text()")
 	end
 end
 
