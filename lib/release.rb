@@ -1,7 +1,7 @@
 #!/usr/bin/ruby -w
 
 require 'rexml/document'
-require './deal'
+require './lib/deal'
 include REXML
 
 class Release
@@ -10,10 +10,11 @@ class Release
 	end
 
 	def release_date
-		XPath.first(@node, 
-					"ReleaseDetailsByTerritory[TerritoryCode=$territory_code]/ReleaseDate/text()", 
-					{}, 
-					{"territory_code"=>@territory_code})
+		query = "ReleaseDetailsByTerritory[TerritoryCode=$territory_code]/ReleaseDate/text()"
+		variables = {
+			"territory_code" => @territory_code
+		}
+		XPath.first(@node, query, {}, variables)
 	end
 
 	def reference

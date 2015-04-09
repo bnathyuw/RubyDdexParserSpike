@@ -1,7 +1,7 @@
 #!/usr/bin/ruby -w
 
 require 'rexml/document'
-require './ddex_reader'
+require './lib/ddex_reader'
 include REXML
 
 class Track
