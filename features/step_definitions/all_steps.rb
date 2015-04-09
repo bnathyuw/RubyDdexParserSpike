@@ -7,10 +7,11 @@ Given(/^a release with different international release dates$/) do
 	@release_reference = "R1"
 end
 
-When(/^I ask if it is available in ([A-Z]{2}) (before any release date|after any release date)$/) do |territory_code, date_name|
+When(/^I ask if it is available in ([A-Z]{2}) (before any release date|after any release date|between the release dates)$/) do |territory_code, date_name|
 	date_names = { 
-		"before any release date" => Date.new(2014,1,1), 
-		"after any release date" => Date.new(2020,1,1) 
+		"before any release date" => Date.new(2014,4,10), 
+		"after any release date" => Date.new(2014,4,16),
+		"between the release dates" => Date.new(2014,4,12)
 	}
 	@answer = @ddex.available?(@release_reference, territory_code, date_names[date_name])
 end
