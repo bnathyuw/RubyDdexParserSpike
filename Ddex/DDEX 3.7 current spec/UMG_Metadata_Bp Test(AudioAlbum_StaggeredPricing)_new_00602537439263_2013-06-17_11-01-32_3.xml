@@ -1,0 +1,2753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ern:NewReleaseMessage xmlns:ern="http://ddex.net/xml/ern/37D2" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" LanguageAndScriptCode="en" MessageSchemaVersionId="ern/37" xs:schemaLocation="http://ddex.net/xml/ern/37D2 http://ddex.net/xml/ern/37D2/release-notification.xsd" ReleaseProfileVersionId="CommonReleaseTypes/12/AudioAlbum">
+    <MessageHeader>
+        <MessageThreadId>3000015296696</MessageThreadId>
+        <MessageId>3000015296696_38098983210</MessageId>
+        <MessageFileName>UMG_Metadata_BpTest(AudioAlbum_StaggeredPricing)_new_00602537439263_2013-06-17_11-01-32.xml</MessageFileName>
+        <MessageSender>
+            <PartyId>PADPIDA2010032301A</PartyId>
+            <PartyName>
+                <FullName>Digiplug</FullName>
+            </PartyName>
+        </MessageSender>
+        <SentOnBehalfOf>
+            <PartyId>PADPIDA2012031302R</PartyId>
+            <PartyName>
+                <FullName>Universal Music Group International</FullName>
+            </PartyName>
+        </SentOnBehalfOf>
+        <MessageRecipient>
+            <PartyId>PADPIDA2010093001B</PartyId>
+            <PartyName>
+                <FullName>BP</FullName>
+            </PartyName>
+        </MessageRecipient>
+        <MessageCreatedDateTime>2013-06-17T11:01:32</MessageCreatedDateTime>
+        <MessageControlType>TestMessage</MessageControlType>
+    </MessageHeader>
+    <UpdateIndicator>OriginalMessage</UpdateIndicator>
+    <IsBackfill>false</IsBackfill>
+    <ResourceList>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307527</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A1</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>On Sight</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT2M36.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>On Sight</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>On Sight</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Guy-Manuel de Homem-Christo</FullName>
+                        <KeyName>de Homem-Christo</KeyName>
+                        <NamesAfterKeyName>Guy-Manuel</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Thomas Bangalter</FullName>
+                        <KeyName>Bangalter</KeyName>
+                        <NamesAfterKeyName>Thomas</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Malik Jones</FullName>
+                        <KeyName>Jones</KeyName>
+                        <NamesAfterKeyName>Malik</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Che Smith</FullName>
+                        <KeyName>Smith</KeyName>
+                        <NamesAfterKeyName>Che</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Elon Rutberg</FullName>
+                        <KeyName>Rutberg</KeyName>
+                        <NamesAfterKeyName>Elon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Cydel Young</FullName>
+                        <KeyName>Cydel Young</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Derrick Watkins</FullName>
+                        <KeyName>Watkins</KeyName>
+                        <NamesAfterKeyName>Derrick</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="9">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Dean</KeyName>
+                        <NamesAfterKeyName>Mike</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="10">
+                    <PartyName>
+                        <FullName>Keith Carter, Sr.</FullName>
+                        <KeyName>Carter, Sr.</KeyName>
+                        <NamesAfterKeyName>Keith</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_001_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>d4d44f74e47fad272b4778963019cd73</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307719</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A2</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Black Skinhead</TitleText>
+                <SubTitle>Digital Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT3M8.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Black Skinhead</TitleText>
+                    <SubTitle>Digital Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Black Skinhead</TitleText>
+                    <SubTitle>Digital Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Guy-Manuel de Homem-Christo</FullName>
+                        <KeyName>de Homem-Christo</KeyName>
+                        <NamesAfterKeyName>Guy-Manuel</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Thomas Bangalter</FullName>
+                        <KeyName>Bangalter</KeyName>
+                        <NamesAfterKeyName>Thomas</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Malik Jones</FullName>
+                        <KeyName>Jones</KeyName>
+                        <NamesAfterKeyName>Malik</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Cydel Young</FullName>
+                        <KeyName>Cydel Young</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Elon Rutberg</FullName>
+                        <KeyName>Rutberg</KeyName>
+                        <NamesAfterKeyName>Elon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Wasalu Jaco</FullName>
+                        <KeyName>Wasalu Jaco</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Sakiya Sandifer</FullName>
+                        <KeyName>Sandifer</KeyName>
+                        <NamesAfterKeyName>Sakiya</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="9">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Dean</KeyName>
+                        <NamesAfterKeyName>Mike</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="10">
+                    <PartyName>
+                        <FullName>Derrick Watkins</FullName>
+                        <KeyName>Watkins</KeyName>
+                        <NamesAfterKeyName>Derrick</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T2</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_002_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>c82b77546649107726b5a1dcdaa5cf58</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307720</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A3</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>I Am A God</TitleText>
+                <SubTitle>Digital Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT3M52.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>I Am A God</TitleText>
+                    <SubTitle>Digital Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>I Am A God</TitleText>
+                    <SubTitle>Digital Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <DisplayArtist SequenceNumber="2">
+                    <PartyName>
+                        <FullName>God</FullName>
+                        <KeyName>God</KeyName>
+                    </PartyName>
+                    <ArtistRole>FeaturedArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Guy-Manuel de Homem-Christo</FullName>
+                        <KeyName>de Homem-Christo</KeyName>
+                        <NamesAfterKeyName>Guy-Manuel</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Thomas Bangalter</FullName>
+                        <KeyName>Bangalter</KeyName>
+                        <NamesAfterKeyName>Thomas</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Clifton Bailey</FullName>
+                        <KeyName>Clifton Bailey</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Harvel Hart</FullName>
+                        <KeyName>Hart</KeyName>
+                        <NamesAfterKeyName>Harvel</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Anand Bakshi</FullName>
+                        <KeyName>Bakshi</KeyName>
+                        <NamesAfterKeyName>Anand</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Rahul Burman</FullName>
+                        <KeyName>Burman</KeyName>
+                        <NamesAfterKeyName>Rahul</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Ross Birchard</FullName>
+                        <KeyName>Birchard</KeyName>
+                        <NamesAfterKeyName>Ross</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="9">
+                    <PartyName>
+                        <FullName>Justin Vernon</FullName>
+                        <KeyName>Vernon</KeyName>
+                        <NamesAfterKeyName>Justin</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="10">
+                    <PartyName>
+                        <FullName>Malik Jones</FullName>
+                        <KeyName>Jones</KeyName>
+                        <NamesAfterKeyName>Malik</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="11">
+                    <PartyName>
+                        <FullName>Che Smith</FullName>
+                        <KeyName>Smith</KeyName>
+                        <NamesAfterKeyName>Che</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="12">
+                    <PartyName>
+                        <FullName>Elon Rutberg</FullName>
+                        <KeyName>Rutberg</KeyName>
+                        <NamesAfterKeyName>Elon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="13">
+                    <PartyName>
+                        <FullName>Cydel Young</FullName>
+                        <KeyName>Cydel Young</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="14">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Dean</KeyName>
+                        <NamesAfterKeyName>Mike</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="15">
+                    <PartyName>
+                        <FullName>Derek Watkins</FullName>
+                        <KeyName>Derek Watkins</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T3</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_003_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>db077d04afc7a37dce7d4c9faf0ae2b6</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307513</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A4</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>New Slaves</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT4M16.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>New Slaves</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>New Slaves</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Christopher Breaux</FullName>
+                        <KeyName>Breaux</KeyName>
+                        <NamesAfterKeyName>Christopher</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Cydell Young</FullName>
+                        <KeyName>Young</KeyName>
+                        <NamesAfterKeyName>Cydell</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Gabor Presser</FullName>
+                        <KeyName>Presser</KeyName>
+                        <NamesAfterKeyName>Gabor</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Anna Adamis</FullName>
+                        <KeyName>Adamis</KeyName>
+                        <NamesAfterKeyName>Anna</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Ben Bronfman</FullName>
+                        <KeyName>Bronfman</KeyName>
+                        <NamesAfterKeyName>Ben</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Malik Jones</FullName>
+                        <KeyName>Jones</KeyName>
+                        <NamesAfterKeyName>Malik</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Che Smith</FullName>
+                        <KeyName>Smith</KeyName>
+                        <NamesAfterKeyName>Che</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="9">
+                    <PartyName>
+                        <FullName>Elon Rutberg</FullName>
+                        <KeyName>Rutberg</KeyName>
+                        <NamesAfterKeyName>Elon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="10">
+                    <PartyName>
+                        <FullName>Sakiya Sandifer</FullName>
+                        <KeyName>Sandifer</KeyName>
+                        <NamesAfterKeyName>Sakiya</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="11">
+                    <PartyName>
+                        <FullName>Louis Johnson</FullName>
+                        <KeyName>Johnson</KeyName>
+                        <NamesAfterKeyName>Louis</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="12">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Dean</KeyName>
+                        <NamesAfterKeyName>Mike</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T4</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_004_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>bad1364a2c6d43a9b46871affdb8b0fc</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307535</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A5</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Hold My Liquor</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT5M27.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Hold My Liquor</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Hold My Liquor</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Mike Dean</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Justin Vernon</FullName>
+                        <KeyName>Vernon</KeyName>
+                        <NamesAfterKeyName>Justin</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Keith Cozart</FullName>
+                        <KeyName>Cozart</KeyName>
+                        <NamesAfterKeyName>Keith</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Elon Rutberg</FullName>
+                        <KeyName>Rutberg</KeyName>
+                        <NamesAfterKeyName>Elon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Che Smith</FullName>
+                        <KeyName>Smith</KeyName>
+                        <NamesAfterKeyName>Che</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Malik Jones</FullName>
+                        <KeyName>Jones</KeyName>
+                        <NamesAfterKeyName>Malik</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Alejandro Ghersi</FullName>
+                        <KeyName>Ghersi</KeyName>
+                        <NamesAfterKeyName>Alejandro</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="9">
+                    <PartyName>
+                        <FullName>Cydel Young</FullName>
+                        <KeyName>Cydel Young</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="10">
+                    <PartyName>
+                        <FullName>Derrick Watkins</FullName>
+                        <KeyName>Watkins</KeyName>
+                        <NamesAfterKeyName>Derrick</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T5</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_005_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>2c5b1089d8bf06dbcb9058fe92d98adb</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307517</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A6</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>I'm In It</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT3M55.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>I'm In It</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>I'm In It</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Justin Vernon</FullName>
+                        <KeyName>Vernon</KeyName>
+                        <NamesAfterKeyName>Justin</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Andre Harris</FullName>
+                        <KeyName>Andre Harris</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Jill Scott</FullName>
+                        <KeyName>Scott</KeyName>
+                        <NamesAfterKeyName>Jill</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Vidal Davis</FullName>
+                        <KeyName>Davis</KeyName>
+                        <NamesAfterKeyName>Vidal</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Carvin Haggins</FullName>
+                        <KeyName>Haggins</KeyName>
+                        <NamesAfterKeyName>Carvin</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Kenny Lattimore</FullName>
+                        <KeyName>Lattimore</KeyName>
+                        <NamesAfterKeyName>Kenny</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Jeffrey Campbell</FullName>
+                        <KeyName>Campbell</KeyName>
+                        <NamesAfterKeyName>Jeffrey</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="9">
+                    <PartyName>
+                        <FullName>Josh Leary</FullName>
+                        <KeyName>Leary</KeyName>
+                        <NamesAfterKeyName>Josh</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="10">
+                    <PartyName>
+                        <FullName>Malik Jones</FullName>
+                        <KeyName>Jones</KeyName>
+                        <NamesAfterKeyName>Malik</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="11">
+                    <PartyName>
+                        <FullName>Cydel Young</FullName>
+                        <KeyName>Cydel Young</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="12">
+                    <PartyName>
+                        <FullName>Sakiya Sandifer</FullName>
+                        <KeyName>Sandifer</KeyName>
+                        <NamesAfterKeyName>Sakiya</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="13">
+                    <PartyName>
+                        <FullName>Elon Rutberg</FullName>
+                        <KeyName>Rutberg</KeyName>
+                        <NamesAfterKeyName>Elon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="14">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Dean</KeyName>
+                        <NamesAfterKeyName>Mike</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T6</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_006_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>ce3c19e1860bf51f7ecf26039cd6457b</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307498</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A7</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Blood On The Leaves</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT6M0.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Blood On The Leaves</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Blood On The Leaves</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Ross Birchard</FullName>
+                        <KeyName>Birchard</KeyName>
+                        <NamesAfterKeyName>Ross</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Lewis Allen</FullName>
+                        <KeyName>Lewis Allen</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Elon Rutberg</FullName>
+                        <KeyName>Rutberg</KeyName>
+                        <NamesAfterKeyName>Elon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Malik Jones</FullName>
+                        <KeyName>Jones</KeyName>
+                        <NamesAfterKeyName>Malik</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Tony Williams</FullName>
+                        <KeyName>Williams</KeyName>
+                        <NamesAfterKeyName>Tony</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Cydel Young</FullName>
+                        <KeyName>Cydel Young</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Dean</KeyName>
+                        <NamesAfterKeyName>Mike</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T7</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_007_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>848584d29acdd129baaabb93a84c26a5</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307529</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A8</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Guilt Trip</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT4M4.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Guilt Trip</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Guilt Trip</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Scott Mescudi</FullName>
+                        <KeyName>Mescudi</KeyName>
+                        <NamesAfterKeyName>Scott</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Keith Elam</FullName>
+                        <KeyName>Elam</KeyName>
+                        <NamesAfterKeyName>Keith</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Kevin Hansford</FullName>
+                        <KeyName>Hansford</KeyName>
+                        <NamesAfterKeyName>Kevin</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Dupre Kelly</FullName>
+                        <KeyName>Kelly</KeyName>
+                        <NamesAfterKeyName>Dupre</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Chris Martin</FullName>
+                        <KeyName>Martin</KeyName>
+                        <NamesAfterKeyName>Chris</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Al Terik Wardrick</FullName>
+                        <KeyName>Wardrick</KeyName>
+                        <NamesAfterKeyName>Al Terik</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Marlon Williams</FullName>
+                        <KeyName>Williams</KeyName>
+                        <NamesAfterKeyName>Marlon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="9">
+                    <PartyName>
+                        <FullName>Terrence Thornton</FullName>
+                        <KeyName>Thornton</KeyName>
+                        <NamesAfterKeyName>Terrence</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="10">
+                    <PartyName>
+                        <FullName>Tyree Pittman</FullName>
+                        <KeyName>Pittman</KeyName>
+                        <NamesAfterKeyName>Tyree</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="11">
+                    <PartyName>
+                        <FullName>Cydel Young</FullName>
+                        <KeyName>Cydel Young</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="12">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Dean</KeyName>
+                        <NamesAfterKeyName>Mike</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="13">
+                    <PartyName>
+                        <FullName>Larry Griffin Jr.</FullName>
+                        <KeyName>Griffin Jr.</KeyName>
+                        <NamesAfterKeyName>Larry</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T8</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_008_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>1c1e5c3738fac3c96ec4f673468f16a3</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307511</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A9</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Send It Up</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT2M58.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Send It Up</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Send It Up</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Guy-Manuel de Homem-Christo</FullName>
+                        <KeyName>de Homem-Christo</KeyName>
+                        <NamesAfterKeyName>Guy-Manuel</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Thomas Bangalter</FullName>
+                        <KeyName>Bangalter</KeyName>
+                        <NamesAfterKeyName>Thomas</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Michael Levy</FullName>
+                        <KeyName>Levy</KeyName>
+                        <NamesAfterKeyName>Michael</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Moses Davis</FullName>
+                        <KeyName>Davis</KeyName>
+                        <NamesAfterKeyName>Moses</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Colin York</FullName>
+                        <KeyName>York</KeyName>
+                        <NamesAfterKeyName>Colin</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Lowell Dunbar</FullName>
+                        <KeyName>Dunbar</KeyName>
+                        <NamesAfterKeyName>Lowell</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Louis Johnson</FullName>
+                        <KeyName>Johnson</KeyName>
+                        <NamesAfterKeyName>Louis</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="9">
+                    <PartyName>
+                        <FullName>Alejandro Ghersi</FullName>
+                        <KeyName>Ghersi</KeyName>
+                        <NamesAfterKeyName>Alejandro</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="10">
+                    <PartyName>
+                        <FullName>Sakiya Sandifer</FullName>
+                        <KeyName>Sandifer</KeyName>
+                        <NamesAfterKeyName>Sakiya</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="11">
+                    <PartyName>
+                        <FullName>AB-Liva</FullName>
+                        <KeyName>AB-Liva</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="12">
+                    <PartyName>
+                        <FullName>Elon Rutberg</FullName>
+                        <KeyName>Rutberg</KeyName>
+                        <NamesAfterKeyName>Elon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="13">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Dean</KeyName>
+                        <NamesAfterKeyName>Mike</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T9</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_009_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>fd2dc01248ceaa7616dbcaa19e09f0b7</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>USUM71307523</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A10</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Bound 2</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <IsBonusResource>false</IsBonusResource>
+            <Duration>PT3M49.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Bound 2</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Bound 2</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>John Stephens</FullName>
+                        <KeyName>Stephens</KeyName>
+                        <NamesAfterKeyName>John</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="3">
+                    <PartyName>
+                        <FullName>Charlie Wilson</FullName>
+                        <KeyName>Charlie Wilson</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="4">
+                    <PartyName>
+                        <FullName>Elon Rutberg</FullName>
+                        <KeyName>Rutberg</KeyName>
+                        <NamesAfterKeyName>Elon</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="5">
+                    <PartyName>
+                        <FullName>Norman Whiteside</FullName>
+                        <KeyName>Whiteside</KeyName>
+                        <NamesAfterKeyName>Norman</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="6">
+                    <PartyName>
+                        <FullName>Bobby Massey</FullName>
+                        <KeyName>Massey</KeyName>
+                        <NamesAfterKeyName>Bobby</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="7">
+                    <PartyName>
+                        <FullName>Robert Dukes</FullName>
+                        <KeyName>Dukes</KeyName>
+                        <NamesAfterKeyName>Robert</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="8">
+                    <PartyName>
+                        <FullName>Che Pope</FullName>
+                        <KeyName>Pope</KeyName>
+                        <NamesAfterKeyName>Che</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="9">
+                    <PartyName>
+                        <FullName>Cydel Young</FullName>
+                        <KeyName>Cydel Young</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="10">
+                    <PartyName>
+                        <FullName>Malik Jones</FullName>
+                        <KeyName>Jones</KeyName>
+                        <NamesAfterKeyName>Malik</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="11">
+                    <PartyName>
+                        <FullName>Sakiya Sandifer</FullName>
+                        <KeyName>Sandifer</KeyName>
+                        <NamesAfterKeyName>Sakiya</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="12">
+                    <PartyName>
+                        <FullName>Mike Dean</FullName>
+                        <KeyName>Dean</KeyName>
+                        <NamesAfterKeyName>Mike</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="13">
+                    <PartyName>
+                        <FullName>Ronnie Self</FullName>
+                        <KeyName>Self</KeyName>
+                        <NamesAfterKeyName>Ronnie</NamesAfterKeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<PLine>
+                    <PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T10</TechnicalResourceDetailsReference>
+                    <AudioCodecType UserDefinedValue="16">UserDefined</AudioCodecType>
+                    <BitsPerSample>16</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_audtrk_00602537439263_01_010_16.flac</FileName>
+                        <HashSum>
+                            <HashSum>95d459bf1982264d890d118b18cab528</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <Image>
+			<ImageType>FrontCoverImage</ImageType>
+            <ImageId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">13UAAIM08444</ProprietaryId>
+            </ImageId>
+            <ResourceReference>A11</ResourceReference>
+            <Title TitleType="DisplayTitle">
+                <TitleText>Yeezus</TitleText>
+                <SubTitle>Revised Album Version</SubTitle>
+            </Title>
+            <Title TitleType="FormalTitle">
+                <TitleText>Yeezus</TitleText>
+                <SubTitle>Revised Album Version</SubTitle>
+            </Title>
+            <ImageDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ResourceContributorRole>MainArtist</ResourceContributorRole>
+                </ResourceContributor>
+                <DisplayArtistName>Kanye West</DisplayArtistName>
+				<CLine>
+                    <CLineText>(C) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</CLineText>
+                </CLine>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalImageDetails>
+                    <TechnicalResourceDetailsReference>T11</TechnicalResourceDetailsReference>
+                    <ImageCodecType>JPEG</ImageCodecType>
+                    <ImageHeight UnitOfMeasure="Pixel">1400</ImageHeight>
+                    <ImageWidth UnitOfMeasure="Pixel">1400</ImageWidth>
+                    <AspectRatio>1.00</AspectRatio>
+                    <ImageResolution>300</ImageResolution>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_cvrart_00602537439263_RGB_300_1400x1400_109479752851.jpg</FileName>
+                        <HashSum>
+                            <HashSum>f11141a8c67b1c09ee15b4368a22c45e</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalImageDetails>
+            </ImageDetailsByTerritory>
+        </Image>
+    </ResourceList>
+ <ReleaseList>
+        <Release IsMainRelease="true">
+            <ReleaseId>
+                <ICPN IsEan="false">00602537439263</ICPN>
+            </ReleaseId>
+            <ReleaseReference>R0</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Yeezus</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A11</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>Album</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Yeezus</TitleText>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Yeezus</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroup>
+                        <SequenceNumber>1</SequenceNumber>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>1</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>2</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>3</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>4</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>5</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>6</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>7</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>8</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>9</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>10</SequenceNumber>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+                            <IsBonusResource>false</IsBonusResource>
+                        </ResourceGroupContentItem>
+                    </ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A11</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music LLC</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music Ltd.</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music Ltd. (Malaysia branch)</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music Pte. Ltd.</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music Taiwan</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT40M5.000S</Duration>
+            <CLine>
+                <CLineText>(C) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</CLineText>
+            </CLine>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307527_01_001</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R1</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>On Sight</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>On Sight</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>On Sight</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>Composer</ArtistRole>
+                    <ArtistRole>Author</ArtistRole>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT2M36.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307719_01_002</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R2</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Black Skinhead</TitleText>
+                <SubTitle>Digital Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Black Skinhead</TitleText>
+                    <SubTitle>Digital Album Version (Explicit)</SubTitle>
+                </Title>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Black Skinhead</TitleText>
+                    <SubTitle>Digital Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>Composer</ArtistRole>
+                    <ArtistRole>Author</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M8.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307720_01_003</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R3</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>I Am A God</TitleText>
+                <SubTitle>Digital Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>I Am A God</TitleText>
+                    <SubTitle>Digital Album Version (Explicit)</SubTitle>
+                </Title>
+                <Title TitleType="FormalTitle">
+                    <TitleText>I Am A God</TitleText>
+                    <SubTitle>Digital Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>Composer</ArtistRole>
+                    <ArtistRole>Author</ArtistRole>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <DisplayArtist SequenceNumber="2">
+                    <PartyName>
+                        <FullName>God</FullName>
+                        <KeyName>God</KeyName>
+                    </PartyName>
+                    <ArtistRole>FeaturedArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M52.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307513_01_004</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R4</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>New Slaves</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>New Slaves</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <Title TitleType="FormalTitle">
+                    <TitleText>New Slaves</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>Composer</ArtistRole>
+                    <ArtistRole>Author</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT4M16.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307535_01_005</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R5</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Hold My Liquor</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Hold My Liquor</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Hold My Liquor</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>Author</ArtistRole>
+                    <ArtistRole>Composer</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT5M27.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307517_01_006</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R6</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>I'm In It</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>I'm In It</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <Title TitleType="FormalTitle">
+                    <TitleText>I'm In It</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>Author</ArtistRole>
+                    <ArtistRole>Composer</ArtistRole>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M55.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307498_01_007</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R7</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Blood On The Leaves</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Blood On The Leaves</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Blood On The Leaves</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>Composer</ArtistRole>
+                    <ArtistRole>Author</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT6M0.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307529_01_008</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R8</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Guilt Trip</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Guilt Trip</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Guilt Trip</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>Author</ArtistRole>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>Composer</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT4M4.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307511_01_009</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R9</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Send It Up</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Send It Up</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Send It Up</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>Composer</ArtistRole>
+                    <ArtistRole>Author</ArtistRole>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT2M58.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537439263_USUM71307523_01_010</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R10</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Bound 2</TitleText>
+                <SubTitle>Album Version (Explicit)</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>Kanye West</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Bound 2</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+				<Title TitleType="FormalTitle">
+                    <TitleText>Bound 2</TitleText>
+                    <SubTitle>Album Version (Explicit)</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Kanye West</FullName>
+                        <KeyName>West</KeyName>
+                        <NamesAfterKeyName>Kanye</NamesAfterKeyName>
+                    </PartyName>
+                    <ArtistRole>Composer</ArtistRole>
+                    <ArtistRole>MainArtist</ArtistRole>
+                    <ArtistRole>Author</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>Explicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+                        <IsBonusResource>false</IsBonusResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>Hip Hop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2013 Def Jam Recordings, a division of UMG Recordings, Inc.</PLineText>
+				</PLine>
+                <ReleaseDate>2013-06-18</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>JP</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Roc-A-Fella</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>HK</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>MY</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>SG</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>TW</TerritoryCode>
+                <LabelName LabelNameType="ReleaseLabel">Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M49.000S</Duration>
+        </Release>
+    </ReleaseList>    
+    <DealList>
+        <ReleaseDeal>
+            <DealReleaseReference>R0</DealReleaseReference>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>JP</TerritoryCode>
+                    <TerritoryCode>HK</TerritoryCode>
+                    <TerritoryCode>SG</TerritoryCode>
+                    <TerritoryCode>TW</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">TP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-06-18</StartDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>JP</TerritoryCode>
+                    <TerritoryCode>HK</TerritoryCode>
+                    <TerritoryCode>SG</TerritoryCode>
+                    <TerritoryCode>TW</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">MEP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-06-18</StartDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+				</DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>MY</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">CMP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-06-18</StartDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+				</DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>MY</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">CMP2</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-06-18</StartDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+				</DealTerms>
+            </Deal>
+        </ReleaseDeal>
+        <ReleaseDeal>
+            <DealReleaseReference>R1</DealReleaseReference>
+            <DealReleaseReference>R2</DealReleaseReference>
+            <DealReleaseReference>R3</DealReleaseReference>
+            <DealReleaseReference>R4</DealReleaseReference>
+            <DealReleaseReference>R5</DealReleaseReference>
+            <DealReleaseReference>R6</DealReleaseReference>
+            <DealReleaseReference>R7</DealReleaseReference>
+            <DealReleaseReference>R8</DealReleaseReference>
+            <DealReleaseReference>R9</DealReleaseReference>
+            <DealReleaseReference>R10</DealReleaseReference>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>Stream</UseType>
+                    </Usage>
+                    <TerritoryCode>JP</TerritoryCode>
+                    <TerritoryCode>HK</TerritoryCode>
+                    <TerritoryCode>MY</TerritoryCode>
+                    <TerritoryCode>SG</TerritoryCode>
+                    <TerritoryCode>TW</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-06-18</StartDate>
+						<EndDate>2013-09-01</EndDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+				</DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>Stream</UseType>
+                    </Usage>
+                    <TerritoryCode>JP</TerritoryCode>
+                    <TerritoryCode>HK</TerritoryCode>
+                    <TerritoryCode>MY</TerritoryCode>
+                    <TerritoryCode>SG</TerritoryCode>
+                    <TerritoryCode>TW</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">TP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-09-02</StartDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+				</DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>JP</TerritoryCode>
+                    <TerritoryCode>HK</TerritoryCode>
+                    <TerritoryCode>MY</TerritoryCode>
+                    <TerritoryCode>SG</TerritoryCode>
+                    <TerritoryCode>TW</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-06-18</StartDate>
+						<EndDate>2013-09-01</EndDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+				</DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>JP</TerritoryCode>
+                    <TerritoryCode>HK</TerritoryCode>
+                    <TerritoryCode>MY</TerritoryCode>
+                    <TerritoryCode>SG</TerritoryCode>
+                    <TerritoryCode>TW</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">TP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-09-02</StartDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+				</DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>JP</TerritoryCode>
+                    <TerritoryCode>HK</TerritoryCode>
+                    <TerritoryCode>MY</TerritoryCode>
+                    <TerritoryCode>SG</TerritoryCode>
+                    <TerritoryCode>TW</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-06-18</StartDate>
+						<EndDate>2013-09-01</EndDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+				</DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>JP</TerritoryCode>
+                    <TerritoryCode>HK</TerritoryCode>
+                    <TerritoryCode>MY</TerritoryCode>
+                    <TerritoryCode>SG</TerritoryCode>
+                    <TerritoryCode>TW</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">TP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2013-09-02</StartDate>
+                    </ValidityPeriod>
+					<ReleaseDisplayStartDate>2013-06-18</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>2013-06-18</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>2013-06-18</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>2013-06-18</ClipPreviewStartDate>
+				</DealTerms>
+            </Deal>
+        </ReleaseDeal>
+    </DealList>
+</ern:NewReleaseMessage>

@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ern:NewReleaseMessage xmlns:ern="http://ddex.net/xml/ern/37" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" LanguageAndScriptCode="en" ReleaseProfileVersionId="CommonReleaseType/12/AudioAlbum" MessageSchemaVersionId="ern/37" xs:schemaLocation="http://ddex.net/xml/ern/37 http://ddex.net/xml/ern/37/release-notification.xsd">
+    <MessageHeader>
+        <MessageThreadId>3000018095325</MessageThreadId>
+        <MessageId>3000018095325_44066299956</MessageId>
+        <MessageFileName>UMG_Metadata_BpTest(Album-StaggeredPricing)_00602537733835_2014-02-10_02-11-27.xml</MessageFileName>
+        <MessageSender>
+            <PartyId>PADPIDA2010032301A</PartyId>
+            <PartyName>
+                <FullName>Digiplug</FullName>
+            </PartyName>
+        </MessageSender>
+        <SentOnBehalfOf>
+            <PartyId>PADPIDA2012031302R</PartyId>
+            <PartyName>
+                <FullName>Universal Music Group International</FullName>
+            </PartyName>
+        </SentOnBehalfOf>
+        <MessageRecipient>
+            <PartyId>PADPIDA2011021510N</PartyId>
+            <PartyName>
+                <FullName>BP</FullName>
+            </PartyName>
+        </MessageRecipient>
+        <MessageCreatedDateTime>2014-02-10T02:11:27</MessageCreatedDateTime>
+        <MessageControlType>TestMessage</MessageControlType>
+    </MessageHeader>
+    <IsBackfill>false</IsBackfill>
+    <ResourceList>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303214</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A1</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Les Matins De Pluie</TitleText>
+            </ReferenceTitle>
+            <Duration>PT2M43.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Les Matins De Pluie</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Les Matins De Pluie</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Barclay</FullName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T1_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>2d187112f71d876029164be6462cb03d</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T2</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T2_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>ad591f67b9e22482685ac53bf33100bc</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303215</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A2</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>J'Ai Le Temps De Penser A Toi</TitleText>
+            </ReferenceTitle>
+            <Duration>PT2M55.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>J'Ai Le Temps De Penser A Toi</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>J'Ai Le Temps De Penser A Toi</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Rapa-Nui Music</FullName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T3</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T3_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>f7788fceba8e56ff22fcc7bba1eafc97</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T4</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T4_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>7ccddccefc182e4a1a0940cd0ba17119</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303216</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A3</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Tant Mieux Pour Toi</TitleText>
+            </ReferenceTitle>
+            <Duration>PT3M34.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Tant Mieux Pour Toi</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Tant Mieux Pour Toi</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Barclay</FullName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T5</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T5_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>bcd984c320cd914868450200492050df</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T6</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T6_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>d542e0b2735b4d795a16b91411d511c4</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303217</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A4</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Après Minuit</TitleText>
+            </ReferenceTitle>
+            <Duration>PT2M45.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Après Minuit</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Après Minuit</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>J.J. Cale</FullName>
+                        <NamesBeforeKeyName>J.J.</NamesBeforeKeyName>
+                        <KeyName>Cale</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>PECF</FullName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T7</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T7_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>75e4301a721f2eb125b142c3396c9006</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T8</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T8_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>6c2e3d1bfb9ece7273f1efc51afdf7a5</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303221</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A5</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>La Maison Des Quatre Vents</TitleText>
+            </ReferenceTitle>
+            <Duration>PT3M32.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>La Maison Des Quatre Vents</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>La Maison Des Quatre Vents</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T9</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T9_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>a062136d551e1b555b68df089128a4a9</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T10</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T10_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>33c266f084b5ca9910d3e10388826a34</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303219</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A6</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Les Petits Trains</TitleText>
+            </ReferenceTitle>
+            <Duration>PT2M32.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Les Petits Trains</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Les Petits Trains</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Barclay</FullName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T11</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T11_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>35fe3c6315f23e73f0d1d138965d79f9</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T12</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T12_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>e2c84fdc872af2fbfc47aaadedbfa13d</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303220</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A7</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Tu Avais Les Cheveux Blancs Grand-Père</TitleText>
+            </ReferenceTitle>
+            <Duration>PT2M35.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Tu Avais Les Cheveux Blancs Grand-Père</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Tu Avais Les Cheveux Blancs Grand-Père</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Barclay</FullName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T13</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T13_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>ff522ea40efe3c0236cc0ddaba9a47d6</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T14</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T14_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>7c8e2742680c7842ff593da63a270f80</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303218</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A8</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Aide-Toi Et Le Ciel T'Aidera</TitleText>
+            </ReferenceTitle>
+            <Duration>PT3M18.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Aide-Toi Et Le Ciel T'Aidera</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Aide-Toi Et Le Ciel T'Aidera</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Barclay</FullName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T15</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T15_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>8cce70c40da2a315849698a6acb5a5e7</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T16</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T16_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>b867fe91eca6ff00904f75ef82d7191d</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303222</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A9</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Gnaoua</TitleText>
+                <SubTitle>Instrumental</SubTitle>
+            </ReferenceTitle>
+            <Duration>PT3M0.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Gnaoua</TitleText>
+                    <SubTitle>Instrumental</SubTitle>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Gnaoua</TitleText>
+                    <SubTitle>Instrumental</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Barclay</FullName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T17</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T17_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>8d29e3d827781cf0ba18647bcbd3f071</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T18</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T18_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>86458f60654a8d00ce25a253e272381c</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>FRUM71303223</ISRC>
+            </SoundRecordingId>
+            <ResourceReference>A10</ResourceReference>
+            <ReferenceTitle>
+                <TitleText>Blues Du Crassier</TitleText>
+            </ReferenceTitle>
+            <Duration>PT3M30.000S</Duration>
+            <SoundRecordingDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Blues Du Crassier</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Blues Du Crassier</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <IndirectResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>Author</IndirectResourceContributorRole>
+                    <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <IndirectResourceContributor SequenceNumber="2">
+                    <PartyName>
+                        <FullName>Barclay</FullName>
+                    </PartyName>
+                    <IndirectResourceContributorRole>MusicPublisher</IndirectResourceContributorRole>
+                </IndirectResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <PLine>
+                    <PLineText>(P) 1976 Barclay</PLineText>
+                </PLine>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T19</TechnicalResourceDetailsReference>
+                    <AudioCodecType>MP3</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">64</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">22050</SamplingRate>
+                    <BitsPerSample>16</BitsPerSample>
+                    <Duration>PT30.000S</Duration>
+                    <IsPreview>true</IsPreview>
+                    <PreviewDetails>
+                        <StartPoint>30</StartPoint>
+                        <EndPoint>60</EndPoint>
+                        <ExpressionType>Informative</ExpressionType>
+                    </PreviewDetails>
+                    <File>
+                        <FileName>UMG_00602537733835_T19_audclp.mp3</FileName>
+                        <HashSum>
+                            <HashSum>73d4d194d348303460590b79b5b18c8f</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+                <TechnicalSoundRecordingDetails>
+                    <TechnicalResourceDetailsReference>T20</TechnicalResourceDetailsReference>
+                    <AudioCodecType>PCM</AudioCodecType>
+                    <BitRate UnitOfMeasure="kbps">4608</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">96000</SamplingRate>
+                    <BitsPerSample>24</BitsPerSample>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T20_audtrk.wav</FileName>
+                        <HashSum>
+                            <HashSum>5b617284df21349ab4a96e6cd447a018</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalSoundRecordingDetails>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+        <Image>
+            <ImageType>FrontCoverImage</ImageType>
+            <ImageId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">13UAEIM36432</ProprietaryId>
+            </ImageId>
+            <ResourceReference>A11</ResourceReference>
+            <Title>
+                <TitleText>Ballade</TitleText>
+            </Title>
+            <ImageDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Ballade</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Ballade</TitleText>
+                </Title>
+                <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ResourceContributorRole>MainArtist</ResourceContributorRole>
+                </ResourceContributor>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <CLine>
+                    <CLineText>(C) 2014 Barclay</CLineText>
+                </CLine>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <TechnicalImageDetails>
+                    <TechnicalResourceDetailsReference>T21</TechnicalResourceDetailsReference>
+                    <ImageCodecType>JPEG</ImageCodecType>
+                    <ImageHeight UnitOfMeasure="Pixel">1400</ImageHeight>
+                    <ImageWidth UnitOfMeasure="Pixel">1400</ImageWidth>
+                    <AspectRatio>1.00</AspectRatio>
+                    <ImageResolution>300</ImageResolution>
+                    <IsPreview>false</IsPreview>
+                    <File>
+                        <FileName>UMG_00602537733835_T21_cvrart.jpg</FileName>
+                        <HashSum>
+                            <HashSum>0d987dc41c24aa9b30251ad2d27c285d</HashSum>
+                            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+                        </HashSum>
+                    </File>
+                </TechnicalImageDetails>
+            </ImageDetailsByTerritory>
+        </Image>
+    </ResourceList>
+    <ReleaseList>
+        <Release IsMainRelease="true">
+            <ReleaseId>
+                <ICPN IsEan="false">00602537733835</ICPN>
+            </ReleaseId>
+            <ReleaseReference>R0</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Ballade</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+                <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A11</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>Album</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Ballade</TitleText>
+                </Title>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Ballade</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroup>
+                        <SequenceNumber>1</SequenceNumber>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>1</SequenceNumber>
+							<ResourceType>SoundRecording</ResourceType>
+                            <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>2</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>3</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>4</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>5</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>6</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>7</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>8</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>9</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                        <ResourceGroupContentItem>
+                            <SequenceNumber>10</SequenceNumber>
+                            <ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+                            <IsInstantGratificationResource>false</IsInstantGratificationResource>
+							<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                        </ResourceGroupContentItem>
+                    </ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>Image</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A11</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 2014 Barclay</PLineText>
+				</PLine>
+				<CLine>
+					<CLineText>(C) 2014 Barclay</CLineText>
+				</CLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+                <OriginalReleaseDate>2014-01-01</OriginalReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music GmbH</LabelName>
+                <ReleaseDate>2014-03-05</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Universal Music Division Barclay</LabelName>
+                <ReleaseDate>2014-03-03</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music B.V.</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT30M24.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303214_R1</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R1</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Les Matins De Pluie</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Les Matins De Pluie</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Les Matins De Pluie</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 1976 Barclay</PLineText>
+				</PLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT2M43.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303215_R2</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R2</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>J'Ai Le Temps De Penser A Toi</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>J'Ai Le Temps De Penser A Toi</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>J'Ai Le Temps De Penser A Toi</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A2</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 1976 Barclay</PLineText>
+				</PLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT2M55.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303216_R3</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R3</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Tant Mieux Pour Toi</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Tant Mieux Pour Toi</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Tant Mieux Pour Toi</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A3</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M34.000S</Duration>
+            <PLine>
+                <PLineText>(P) 1976 Barclay</PLineText>
+            </PLine>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303217_R4</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R4</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Après Minuit</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Après Minuit</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Après Minuit</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A4</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 1976 Barclay</PLineText>
+				</PLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT2M45.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303221_R5</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R5</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>La Maison Des Quatre Vents</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>La Maison Des Quatre Vents</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>La Maison Des Quatre Vents</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A5</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 1976 Barclay</PLineText>
+				</PLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M32.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303219_R6</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R6</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Les Petits Trains</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Les Petits Trains</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Les Petits Trains</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A6</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 1976 Barclay</PLineText>
+				</PLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT2M32.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303220_R7</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R7</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Tu Avais Les Cheveux Blancs Grand-Père</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Tu Avais Les Cheveux Blancs Grand-Père</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Tu Avais Les Cheveux Blancs Grand-Père</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A7</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 1976 Barclay</PLineText>
+				</PLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT2M35.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303218_R8</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R8</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Aide-Toi Et Le Ciel T'Aidera</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Aide-Toi Et Le Ciel T'Aidera</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Aide-Toi Et Le Ciel T'Aidera</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A8</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 1976 Barclay</PLineText>
+				</PLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M18.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303222_R9</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R9</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Gnaoua</TitleText>
+                <SubTitle>Instrumental</SubTitle>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Gnaoua</TitleText>
+                    <SubTitle>Instrumental</SubTitle>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Gnaoua</TitleText>
+                    <SubTitle>Instrumental</SubTitle>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A9</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 1976 Barclay</PLineText>
+				</PLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M0.000S</Duration>
+        </Release>
+        <Release>
+            <ReleaseId>
+                <ProprietaryId Namespace="PADPIDA2012031302R">00602537733835_FRUM71303223_R10</ProprietaryId>
+            </ReleaseId>
+            <ReleaseReference>R10</ReleaseReference>
+            <ReferenceTitle>
+                <TitleText>Blues Du Crassier</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>Worldwide</TerritoryCode>
+                <DisplayArtistName>Joel Dayde</DisplayArtistName>
+                <Title TitleType="FormalTitle">
+                    <TitleText>Blues Du Crassier</TitleText>
+                </Title>
+                <Title TitleType="DisplayTitle">
+                    <TitleText>Blues Du Crassier</TitleText>
+                </Title>
+                <DisplayArtist SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Joel Dayde</FullName>
+                        <NamesBeforeKeyName>Joel</NamesBeforeKeyName>
+                        <KeyName>Dayde</KeyName>
+                    </PartyName>
+                    <ArtistRole>MainArtist</ArtistRole>
+                </DisplayArtist>
+                <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A10</ReleaseResourceReference>
+						<IsInstantGratificationResource>false</IsInstantGratificationResource>
+						<IsPreOrderIncentiveResource>false</IsPreOrderIncentiveResource>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                    <GenreText>French Pop</GenreText>
+                </Genre>
+				<PLine>
+					<PLineText>(P) 1976 Barclay</PLineText>
+				</PLine>
+                <ReleaseDate>2014-02-28</ReleaseDate>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>AT</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>FR</TerritoryCode>
+                <LabelName>Barclay</LabelName>
+            </ReleaseDetailsByTerritory>
+            <ReleaseDetailsByTerritory>
+                <TerritoryCode>NL</TerritoryCode>
+                <LabelName>Universal Music</LabelName>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT3M30.000S</Duration>
+        </Release>
+    </ReleaseList>
+    <DealList>
+        <ReleaseDeal>
+            <DealReleaseReference>R1</DealReleaseReference>
+            <DealReleaseReference>R2</DealReleaseReference>
+            <DealReleaseReference>R3</DealReleaseReference>
+            <DealReleaseReference>R4</DealReleaseReference>
+            <DealReleaseReference>R5</DealReleaseReference>
+            <DealReleaseReference>R6</DealReleaseReference>
+            <DealReleaseReference>R7</DealReleaseReference>
+            <DealReleaseReference>R8</DealReleaseReference>
+            <DealReleaseReference>R9</DealReleaseReference>
+            <DealReleaseReference>R10</DealReleaseReference>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>Stream</UseType>
+                    </Usage>
+                    <TerritoryCode>AT</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-05</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-05</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-05</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-05</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-05</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>AT</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-05</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-05</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-05</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-05</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-05</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>FR</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-03</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-03</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-03</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-03</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-03</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>NL</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-02-28</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-02-28</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-02-28</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-02-28</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-02-28</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>NL</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-02-28</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-02-28</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-02-28</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-02-28</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-02-28</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>AT</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-05</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-05</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-05</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-05</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-05</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>Stream</UseType>
+                    </Usage>
+                    <TerritoryCode>NL</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-02-28</StartDate>
+                        <EndDate>2014-03-04</EndDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-02-28</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-02-28</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-02-28</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-02-28</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>Stream</UseType>
+                    </Usage>
+                    <TerritoryCode>NL</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP(2)</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-05</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-02-28</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-02-28</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-02-28</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-02-28</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>FR</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-03</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-03</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-03</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-03</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-03</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>Stream</UseType>
+                    </Usage>
+                    <TerritoryCode>FR</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">STAP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-03</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-03</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-03</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-03</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-03</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+        </ReleaseDeal>
+        <ReleaseDeal>
+            <DealReleaseReference>R0</DealReleaseReference>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>NL</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">TP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-02-28</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-02-28</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-02-28</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-02-28</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-02-28</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>FR</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">MP(2)</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-03</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-03</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-03</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-03</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-03</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>SubscriptionModel</CommercialModelType>
+                    <Usage>
+                        <UseType>ConditionalDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>AT</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">TP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-05</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-05</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-05</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-05</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-05</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>AT</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">TP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-05</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-05</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-05</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-05</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-05</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>NL</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">TP</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-02-28</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-02-28</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-02-28</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-02-28</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-02-28</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>FR</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">MP(2)</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-03</StartDate>
+                        <EndDate>2014-03-10</EndDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-03</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-03</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-03</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-03</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+            <Deal>
+                <DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+                    <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+                    <Usage>
+                        <UseType>PermanentDownload</UseType>
+                    </Usage>
+                    <TerritoryCode>FR</TerritoryCode>
+                    <PriceInformation>
+                        <PriceType Namespace="PADPIDA2012031302R">MP(2)B</PriceType>
+                    </PriceInformation>
+                    <ValidityPeriod>
+                        <StartDate>2014-03-11</StartDate>
+                    </ValidityPeriod>
+                    <ReleaseDisplayStartDate>2014-03-03</ReleaseDisplayStartDate>
+                    <TrackListingPreviewStartDate>2014-03-03</TrackListingPreviewStartDate>
+                    <CoverArtPreviewStartDate>2014-03-03</CoverArtPreviewStartDate>
+                    <ClipPreviewStartDate>2014-03-03</ClipPreviewStartDate>
+                </DealTerms>
+            </Deal>
+        </ReleaseDeal>
+    </DealList>
+</ern:NewReleaseMessage>

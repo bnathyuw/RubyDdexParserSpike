@@ -2,7 +2,7 @@
 
 require './ddex'
 
-filename = "UMG_DDEX_metadata_7digital_(MP3)_new_00028947871477_2014-03-31_10-33-54.xml"
+filename = "Ddex/UMG_DDEX_metadata_7digital_(MP3)_new_00028947871477_2014-03-31_10-33-54.xml"
 isrc = "NLA508028306"
 territory_code = "AU"
 
