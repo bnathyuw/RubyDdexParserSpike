@@ -4,8 +4,8 @@ Feature: Price by country
     Given a release with different prices for different countries
 
   Scenario Outline: The item should have no price when it has not been released anywhere
-  	When I ask for the purchase price in <territory> before it has been released anywhere
-    Then I should not get a price
+  	When I want to purchase it in <territory> before it has been released anywhere
+    Then it should not have a price
 
  	Examples:
  	  | territory |
@@ -13,8 +13,8 @@ Feature: Price by country
  	  | EE        |
 
   Scenario Outline: The item should have the appropriate price for the territory
-  	When I ask for the purchase price in <territory> once it has been released everywhere
-  	Then the price should be <price>
+  	When I want to purchase it in <territory> once it has been released everywhere
+  	Then its price should be <price>
 
   	Examples:
   	  | territory | price |
