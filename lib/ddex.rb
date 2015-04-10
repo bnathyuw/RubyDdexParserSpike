@@ -22,7 +22,8 @@ class Ddex
 		use_types = {
 			:purchase => "PermanentDownload"
 		}
-		@ddex_reader.has_deal?(release_reference, commercial_model_types[deal_type], use_types[deal_type], territory_code, date)
+		deal = @ddex_reader.read_deal(release_reference, commercial_model_types[deal_type], use_types[deal_type], territory_code, date)
+		return deal != nil
 	end
 
 	def read_price(release_reference, deal_type, territory_code, date)

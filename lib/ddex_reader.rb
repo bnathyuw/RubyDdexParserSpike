@@ -4,8 +4,8 @@ require 'rexml/document'
 include REXML
 
 class DdexReader
-    def has_deal?(release_reference, commercial_model_type, use_type, territory_code, date)
-		query = "//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal/DealTerms[CommercialModelType/.=$commercial_model_type and Usage/UseType/.=$use_type and TerritoryCode/.=$territory_code and translate(ValidityPeriod/StartDate/., '-', '') <= translate($date, '-', '')]"
+    def read_price(release_reference, commercial_model_type, use_type, territory_code, date)
+		query = "//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal/DealTerms[CommercialModelType/.=$commercial_model_type and Usage/UseType/.=$use_type and TerritoryCode/.=$territory_code and translate(ValidityPeriod/StartDate/., '-', '') <= translate($date, '-', '')]/PriceInformation/PriceType/text()"
 		variables = {
 			"commercial_model_type" => commercial_model_type,
 			"use_type" => use_type,
@@ -13,12 +13,11 @@ class DdexReader
 			"territory_code" => territory_code,
 			"date" => date.to_s
 		}
-		matches = XPath.match(@xmldoc, query, {}, variables)
-		matches.any?
+		XPath.first(@xmldoc, query, {}, variables)
 	end
 
-	def read_price(release_reference, commercial_model_type, use_type, territory_code, date)
-		query = "//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal/DealTerms[CommercialModelType/.=$commercial_model_type and Usage/UseType/.=$use_type and TerritoryCode/.=$territory_code and translate(ValidityPeriod/StartDate/., '-', '') <= translate($date, '-', '')]/PriceInformation/PriceType/text()"
+	def read_deal(release_reference, commercial_model_type, use_type, territory_code, date)
+		query = "//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal[DealTerms/CommercialModelType/.=$commercial_model_type and DealTerms/Usage/UseType/.=$use_type and DealTerms/TerritoryCode/.=$territory_code and translate(DealTerms/ValidityPeriod/StartDate/., '-', '') <= translate($date, '-', '')]"
 		variables = {
 			"commercial_model_type" => commercial_model_type,
 			"use_type" => use_type,
