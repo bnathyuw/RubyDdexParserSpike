@@ -5,7 +5,7 @@ include REXML
 
 class DdexReader
     def read_deal(release_reference, commercial_model_type, use_type, territory_code, date)
-		query = "//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal[DealTerms/CommercialModelType/.=$commercial_model_type and DealTerms/Usage/UseType/.=$use_type and DealTerms/TerritoryCode/.=$territory_code and translate(DealTerms/ValidityPeriod/StartDate/., '-', '') <= translate($date, '-', '')]"
+		query = "//ReleaseDeal[DealReleaseReference/.=$release_reference]/Deal[DealTerms/CommercialModelType/.=$commercial_model_type and DealTerms/Usage/UseType/.=$use_type and DealTerms/TerritoryCode/.=$territory_code and translate(DealTerms/ValidityPeriod/StartDate/., '-', '') <= translate($date, '-', '') and not(translate(DealTerms/ValidityPeriod/EndDate/., '-', '') < translate($date, '-', ''))]"
 		variables = {
 			"commercial_model_type" => commercial_model_type,
 			"use_type" => use_type,

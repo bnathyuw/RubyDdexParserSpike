@@ -13,6 +13,11 @@ Given(/^a release with different prices for different countries$/) do
 	@release_reference = "R1"
 end
 
+Given(/^a release whose price varies over time$/) do
+	@ddex = Ddex.new("./Ddex/DDEX 3.7 current spec/UMG_Metadata_Bp Test(AudioAlbum_StaggeredPricing)_new_00602537439263_2013-06-17_11-01-32_3.xml")
+	@release_reference = "R1"
+end
+
 When(/^I want to purchase it in ([A-Z]{2}) (.*)$/) do |territory_code, purchase_date|
 	date = Dates.find(purchase_date)
 	@deal = @ddex.read_deal(@release_reference, :purchase, territory_code, date)
