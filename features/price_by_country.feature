@@ -7,10 +7,10 @@ Feature: Price by country
   	When I want to purchase it in <territory> before it has been released anywhere
     Then it should not have a price
 
- 	Examples:
- 	  | territory |
- 	  | AT        |
- 	  | EE        |
+   	Examples:
+ 	    | territory |
+ 	    | AT        |
+ 	    | EE        |
 
   Scenario Outline: The item should have the appropriate price for the territory
   	When I want to purchase it in <territory> once it has been released everywhere
