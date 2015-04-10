@@ -19,7 +19,7 @@ class Ddex
 			:purchase => "PermanentDownload"
 		}
 		deal = @ddex_reader.read_deal(release_reference, commercial_model_types[deal_type], use_types[deal_type], territory_code, date)
-		return deal != nil
+		deal != nil
 	end
 
 	def read_price(release_reference, deal_type, territory_code, date)
@@ -29,7 +29,8 @@ class Ddex
 		use_types = {
 			:purchase => "PermanentDownload"
 		}
-		@ddex_reader.read_price(release_reference, commercial_model_types[deal_type], use_types[deal_type], territory_code, date)
+		deal = @ddex_reader.read_deal(release_reference, commercial_model_types[deal_type], use_types[deal_type], territory_code, date)
+		XPath.first(deal, "DealTerms/PriceInformation/PriceType/text()") if deal != nil
 	end
 end
 
