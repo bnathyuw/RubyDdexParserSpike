@@ -11,10 +11,6 @@ class Ddex
 		@ddex_reader = DdexReader.new(xmldoc)
 	end
 
-	def read_track(isrc, territory_code)
-		Track.new(@ddex_reader, isrc, territory_code)
-	end
-
 	def available?(release_reference, deal_type, territory_code, date)
 		commercial_model_types = {
 			:purchase => "PayAsYouGoModel"
