@@ -7,19 +7,19 @@ Given(/^a release with different international release dates$/) do
 	@release_reference = "R1"
 end
 
-When(/^I ask if it is available in ([A-Z]{2}) before any release date$/) do |territory_code|
+When(/^I ask if it is available to purchase in ([A-Z]{2}) before any release date$/) do |territory_code|
 	date = Date.new(2014,4,10)
-	@answer = @ddex.available?(@release_reference, territory_code, date)
+	@answer = @ddex.available?(@release_reference, :purchase, territory_code, date)
 end
 
-When(/^I ask if it is available in ([A-Z]{2}) between the release dates$/) do |territory_code|
+When(/^I ask if it is available to purchase in ([A-Z]{2}) between the release dates$/) do |territory_code|
 	date = Date.new(2014,4,12)
-	@answer = @ddex.available?(@release_reference, territory_code, date)
+	@answer = @ddex.available?(@release_reference, :purchase, territory_code, date)
 end
 
-When(/^I ask if it is available in ([A-Z]{2}) after any release date$/) do |territory_code|
+When(/^I ask if it is available to purchase in ([A-Z]{2}) after any release date$/) do |territory_code|
 	date = Date.new(2014,4,16)
-	@answer = @ddex.available?(@release_reference, territory_code, date)
+	@answer = @ddex.available?(@release_reference, :purchase, territory_code, date)
 end
 
 Then(/^the answer should be (true|false)$/) do |expected_answer|
