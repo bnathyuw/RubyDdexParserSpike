@@ -1,10 +1,10 @@
 Feature: Availability by country
 
   Background:
-    Given a release with different international release dates
+    Given a release with different release dates for different countries
 
   Scenario Outline: The item should not be available before it has been released anywhere
-    When I ask if it is available to purchase in <territory> before any release date
+    When I ask if it is available to purchase in <territory> before it has been released anywhere
     Then the answer should be false
 
     Examples:
@@ -22,7 +22,7 @@ Feature: Availability by country
       | EE        | false      |
 
   Scenario Outline: The item should be available once it has been released everywhere
-    When I ask if it is available to purchase in <territory> after any release date
+    When I ask if it is available to purchase in <territory> once it has been released everywhere
     Then the answer should be true
 
     Examples:

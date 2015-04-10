@@ -24,5 +24,15 @@ class Ddex
 		}
 		@ddex_reader.has_deal?(release_reference, commercial_model_types[deal_type], use_types[deal_type], territory_code, date)
 	end
+
+	def read_price(release_reference, deal_type, territory_code, date)
+		commercial_model_types = {
+			:purchase => "PayAsYouGoModel"
+		}
+		use_types = {
+			:purchase => "PermanentDownload"
+		}
+		@ddex_reader.read_price(release_reference, commercial_model_types[deal_type], use_types[deal_type], territory_code, date)
+	end
 end
 
