@@ -1,3 +1,7 @@
 # Ruby DDEX Parser Spike
 
-Spiking a DDEX Parser using Ruby. Not much to see here right now.
+Reading deal information from DDEX using XPath and Ruby
+
+## Running the specs
+
+The specs are written in Cucumber. To run them, open a terminal in the root and run `$ cucumber`
